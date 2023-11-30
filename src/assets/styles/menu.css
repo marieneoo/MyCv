@@ -4,8 +4,23 @@
     box-sizing: border-box;
 }
 
-menu{
-    background-color: red;
+.menu{
+    background-color: #314833;
     width: 100vw;
-    height: 10vh;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.maria{
+    font-size: calc(10px + 1vw);;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 100;
+    margin-left: 1vw;
+}
+
+.starImg{
+    width: calc(10px + 0.2vw);
+    height: width;
 }
