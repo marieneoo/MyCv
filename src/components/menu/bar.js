@@ -1,5 +1,5 @@
 import React from 'react'
-import star from './star.js'
+import Star from './star.js'
 
 class Bar extends React.Component{
     render() {
@@ -12,6 +12,7 @@ class Bar extends React.Component{
                     <li><a href='#'>Get in touch</a></li>
                     
                 </ul>
+                <Star/>
             </div>
         )
     }

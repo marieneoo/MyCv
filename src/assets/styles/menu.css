@@ -9,28 +9,67 @@
     width: 100vw;
     height: 77px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
 }
 
 .maria{
-    font-size: calc(10px + 1vw);;
+    font-size: calc(10px + 0.5vw);;
     font-family: 'Kulim Park', sans-serif;
     font-weight: 100;
     margin-left: 1vw;
+    color: #ECE5D8;
 }
 
 .starImg{
     width: calc(10px + 2vw);
     height: width;
+   
+}
+
+.star{
+    display: flex;
+}
+
+.bar {
+    display: flex;
 }
 
 .bar ul{
     display: flex;
     list-style-type: none;
-    justify-content: right;
+    padding-right: 0.2vw;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .bar ul li a{
     text-decoration: none;
+    display: flex;
+    padding: 0.8vw;
+    color: #ECE5D8;
+    min-width: 120px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kulim Park', sans-serif;
 }
+
+.bar ul li a:hover {
+    background-color: #ECE5D8;
+    color: black;
+    border-radius: 200px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
