@@ -4,7 +4,7 @@ class Star extends React.Component {
     render() {
         return(
             <div className='star'>
-               <img className='starimg' src={star}/>
+               <img className='starImg' src={star}/>
             </div>
         )
     }

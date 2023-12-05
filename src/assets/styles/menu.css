@@ -21,6 +21,16 @@
 }
 
 .starImg{
-    width: calc(10px + 0.2vw);
+    width: calc(10px + 2vw);
     height: width;
+}
+
+.bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.bar ul li a{
+    text-decoration: none;
 }
