@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #ECE5D8;
+}
+
 .menu{
     background-color: #314833;
     width: 100vw;
@@ -23,7 +27,6 @@
 
 .maria{
     font-size: calc(10px + 0.5vw);;
-    font-family: 'Kulim Park', sans-serif;
     font-weight: 100;
     margin-left: 1vw;
     color: #ECE5D8;
@@ -60,7 +63,6 @@
     min-width: 120px;
     align-items: center;
     justify-content: center;
-    font-family: 'Kulim Park', sans-serif;
 }
 
 .bar ul li a:hover {

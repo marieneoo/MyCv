@@ -1,5 +1,5 @@
 import React from 'react'
-import Star from './star.js'
+import StarWhite from '../star_white.js'
 
 class Bar extends React.Component{
     render() {
@@ -12,7 +12,7 @@ class Bar extends React.Component{
                     <li><a href='#'>Get in touch</a></li>
                     
                 </ul>
-                <Star/>
+                <StarWhite/>
             </div>
         )
     }
