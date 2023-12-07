@@ -5,7 +5,7 @@ class WhyMe extends React.Component {
             <div className='whyMe'>
                 <div className='why_me'>
                     <h1 className='why_me_txt'>
-                        Why me
+                        Why me?
                     </h1>
                 </div>
 
