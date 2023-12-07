@@ -8,9 +8,17 @@ class Pic extends React.Component {
         return(
             <div className='pic'>
                 <img className='back_big' src={back_big}></img>
-                <img className='front_end' src={front_end}></img>
-                <img className='front_start' src={front_start}></img>
                 <StarWhite/>
+
+                <div className='absolute'>
+                    <div>
+                    <img className='front_end' src={front_end}></img>
+                    </div>
+
+                    <div>
+                    <img className='front_start' src={front_start}></img>
+                    </div>
+                </div>
             </div>
         )
     }

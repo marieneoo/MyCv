@@ -16,16 +16,13 @@
     min-width: 350px;
     min-height: 410px;
     position: relative;
-}
-
-.front_end {
-    position: absolute;
-}
-
-.front_start {
-    position: absolute;
+    padding: 5%;
 }
 
 .first_page{
     display: flex;
+}
+
+.absolute{
+    position: absolute;
 }
