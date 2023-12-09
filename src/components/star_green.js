@@ -1,13 +1,11 @@
 import React from 'react'
 import starGreen from '../assets/images/star_green.svg'
-class StarGreen extends React.Component {
-    render() {
+const StarGreen=({className})=> {
         return(
             <div className='star'>
-               <img className='starGImg' src={starGreen}/>
+               <img className={className} src={starGreen}/>
             </div>
         )
-    }
 }
 
 export default StarGreen
