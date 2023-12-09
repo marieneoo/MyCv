@@ -77,3 +77,23 @@ body{
     justify-content: center;
 }
 
+@media only screen and (max-width: 550px) {
+     .menu {
+        align-items: flex-end;
+        justify-content: center;
+     }
+
+     .name, .star, .starWImg {
+        display: none;
+        visibility: hidden;
+     }
+
+     .bar ul li a{
+        padding: 2vw;
+    min-width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vw);
+    font-weight: 100;
+     }
+} 

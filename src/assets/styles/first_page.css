@@ -85,3 +85,15 @@
 .passion_txt {
     font-size: calc(10px + 0.8vw)
 }
+
+@media only screen and (max-width: 550px) {
+    .me, .first_page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMe {
+        content: attr(.pic_1);
+        flex-direction: column-reverse;
+    }
+}
