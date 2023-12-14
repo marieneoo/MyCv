@@ -94,6 +94,8 @@
     .me, .first_page {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .pic_1{
@@ -111,6 +113,9 @@
     .hidden-pic-div {
         width: 15vw;
         height: width;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     .aboutMe {
@@ -119,17 +124,28 @@
         clear: both;
         width: 100%;
         height: 50vh;
+        align-items: center;
+        justify-content: center;
     }
 
     .hi, .hi_txt, .passion, .passion_txt {
         width: 90%;
         display: flex;
         align-items: center;
+        justify-content: center;
 
     }
 
     .why_me {
         justify-content: center;
+    }
+
+    .star1 {
+        margin-top: 3vh;
+    }
+
+    .star2{
+        margin-bottom: 0.5vh;
     }
 
 
