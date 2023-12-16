@@ -1,5 +1,4 @@
 import React from 'react'
-import StarGreen from '../stars/star_green'
 import Pic from '../../assets/images/pic.png'
 import Title from "../title/index.js"
 class AboutMeTxt extends React.Component {
