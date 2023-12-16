@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #ECE5D8;
 }
 
-.menu{
+.menu {
     background-color: #314833;
     width: 100vw;
     height: 77px;
@@ -19,36 +19,35 @@ body{
     padding-left: 4%;
     padding-right: 4%;
     position: fixed;
-    min-width: 260px;
 }
 
-.name{
+.name {
     display: flex;
     align-items: center;
 }
 
-.maria{
+.star_white_menu {
+    width: calc(10px + 2vw);
+    height: width;
+
+}
+
+.star_white {
+    display: flex;
+}
+
+.maria {
     font-size: calc(10px + 0.5vw);
     font-weight: 100;
     margin-left: 1vw;
     color: #ECE5D8;
 }
 
-.starWImg{
-    width: calc(10px + 2vw);
-    height: width;
-   
-}
-
-.star{
-    display: flex;
-}
-
 .bar {
     display: flex;
 }
 
-.bar ul{
+.bar ul {
     display: flex;
     list-style-type: none;
     padding-right: 0.2vw;
@@ -57,7 +56,7 @@ body{
 
 }
 
-.bar ul li a{
+.bar ul li a {
     text-decoration: none;
     display: flex;
     padding: 0.8vw;
@@ -80,25 +79,29 @@ body{
 }
 
 @media only screen and (max-width: 550px) {
-     .menu {
+    .menu {
         align-items: flex-end;
         justify-content: center;
-        padding-left:0;
+        padding-left: 0;
         padding-right: 0;
         padding: 0;
-     }
+        min-width: 300px;
+    }
 
-     .name, .star, .starWImg, .maria {
+    .name,
+    .star,
+    .starWImg,
+    .maria {
         display: none;
         visibility: hidden;
-     }
+    }
 
-     .bar ul li a{
+    .bar ul li a {
         padding: 2vw;
-    min-width: 50px;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 1.5vw);
-    font-weight: 100;
-     }
-} 
+        min-width: 50px;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 1.5vw);
+        font-weight: 100;
+    }
+}

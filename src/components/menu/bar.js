@@ -1,5 +1,5 @@
 import React from 'react'
-import StarWhite from '../star_white.js'
+import StarWhite from '../stars/star_white.js'
 
 class Bar extends React.Component{
     render() {
@@ -12,7 +12,7 @@ class Bar extends React.Component{
                     <li><a href='#'>Get in touch</a></li>
                     
                 </ul>
-                <StarWhite/>
+                <StarWhite className="star_white_menu"/>
             </div>
         )
     }

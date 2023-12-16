@@ -2,7 +2,7 @@ import React from 'react'
 class WhyMe extends React.Component {
     render() {
         return(
-            <div className='whyMe'>
+            <div className='why_me_container'>
                 <div className='why_me'>
                     <h1 className='why_me_txt'>
                         Why me?

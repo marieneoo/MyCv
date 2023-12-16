@@ -1,17 +1,17 @@
 import React from 'react'
-import StarGreen from '../star_green'
+import StarGreen from '../stars/star_green'
 import Pic from '../../assets/images/pic.png'
-class AboutMe extends React.Component {
+class AboutMeTxt extends React.Component {
     render() {
         return(
-            <div className='aboutMe'>
+            <div className='about_me_txt_container'>
                 
-                <div className='about_me'>
-                <StarGreen className='star1'/>
+                <div className='about_me_txt_div'>
+                <StarGreen className='star_green_bottom'/>
                     <h1 className='about_me_txt'>
                         About me
                     </h1> 
-                    <StarGreen className='star2'/>
+                    <StarGreen className='star_green_top'/>
                 </div>
 
                 <div className='hi'>
@@ -27,4 +27,4 @@ class AboutMe extends React.Component {
     }
 }
 
-export default AboutMe
+export default AboutMeTxt

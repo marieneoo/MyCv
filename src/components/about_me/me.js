@@ -1,11 +1,11 @@
 import React from "react";
-import AboutMe from "./about_me";
-import WhyMe from "./why_me";
+import AboutMeTxt from "./about_me_txt.js";
+import WhyMe from "./why_me.js";
 class Me extends React.Component {
     render() {
         return(
             <div className="me">
-                <AboutMe/>
+                <AboutMeTxt/>
                 <WhyMe/>
             </div>
         )
