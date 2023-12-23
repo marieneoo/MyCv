@@ -1,0 +1,21 @@
+.title_div {
+    display: flex;
+}
+
+.star_green_bottom {
+    width: calc(10px + 1vw);
+    height: width;
+    margin-top: 8vh;
+}
+
+.title_h1 {
+    font-size: calc(10px + 4vw);
+    font-weight: 150;
+    color: #314833;
+}
+
+.star_green_top {
+    width: calc(10px + 1vw);
+    height: width;
+    margin-bottom: 4vh;
+}
