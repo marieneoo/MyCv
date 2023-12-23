@@ -1,0 +1,12 @@
+.portfolio_illustrator_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 100vw;
+   
+}
+
+.carousel_images img {
+    padding: 1%;
+}
