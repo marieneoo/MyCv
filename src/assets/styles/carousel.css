@@ -1,19 +1,13 @@
-.portfolio_illustrator_carousel {
+.portfolio_carousel {
     display: grid;
     grid-template-columns: 10% auto 10%;
     padding-bottom: 5%;
     width: 100vw;
-    
-   
 }
 
-.carousel_images img:nth-child(2) {
-    width: 30vw;
-    height: width;
-}
-
-.carousel_images img {
-    padding: 1%;
+.portfolio_carousel img {
+    align-self: center;
+    justify-self: center;
 }
 
 .carousel_images {
@@ -22,7 +16,11 @@
     justify-content: center;
 }
 
-.portfolio_illustrator_carousel img {
-    align-self: center;
-    justify-self: center;
+.carousel_images img {
+    padding: 1%;
+}
+
+.carousel_images img:nth-child(2) {
+    width: 30vw;
+    height: width;
 }

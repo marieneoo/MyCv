@@ -14,8 +14,7 @@
     width: 100vw;
 }
 
-.portfolio_first_page {
-    background-color: green;
+.portfolio_page {
     width: 100vw;
     height: 100vh;
     display: grid;
