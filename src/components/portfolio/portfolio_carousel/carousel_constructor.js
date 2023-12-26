@@ -7,8 +7,12 @@ const CarouselConstructor=({first_child, second_child, third_child}) => {
         function  slide() {
          for(let i=0; i<img.length; i++) {
 
+                img[0]=img[1];
+                img[1]=img[2];
+                img[2]=img[0];
+
         }
-           return
+           return 
           
            
         }
@@ -21,9 +25,9 @@ const CarouselConstructor=({first_child, second_child, third_child}) => {
 
             <div className="carousel_images">
 
-            <img src={first_child} className="stickers_img"></img>
-            <img src={second_child} className="geometric_img"></img>
-            <img src={third_child} className="march8_img"></img>
+            <img src={img[0]} className="first_img"></img>
+            <img src={img[1]} className="second_img"></img>
+            <img src={img[2]} className="third_img"></img>
 
             </div>
 

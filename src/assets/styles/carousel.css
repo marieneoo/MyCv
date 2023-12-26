@@ -24,3 +24,8 @@
     width: 30vw;
     height: width;
 }
+
+.arrow_right_img, .arrow_left_img {
+    cursor: pointer;
+}
+
