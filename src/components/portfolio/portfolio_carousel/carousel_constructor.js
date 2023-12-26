@@ -1,12 +1,8 @@
 import React from "react";
-import stickers from "../../../assets/images/stickers.jpg"
-import geometric from "../../../assets/images/geometric.jpg"
-import march8 from "../../../assets/images/march8.jpg"
 import arrow_left from "../../../assets/images/arrow_left.svg"
 import arrow_right from "../../../assets/images/arrow_right.svg"
 import "../../../assets/styles/carousel.css"
-class PortfolioIllustratorCarousel extends React.Component {
-    render() {
+const CarouselConstructor=({first_child, second_child, third_child}) => {
         return (
            <div className="portfolio_illustrator_carousel">
 
@@ -14,9 +10,9 @@ class PortfolioIllustratorCarousel extends React.Component {
 
             <div className="carousel_images">
 
-            <img src={stickers} className="stickers_img"></img>
-            <img src={geometric} className="geometric_img"></img>
-            <img src={march8} className="march8_img"></img>
+            <img src={first_child} className="stickers_img"></img>
+            <img src={second_child} className="geometric_img"></img>
+            <img src={third_child} className="march8_img"></img>
 
             </div>
 
@@ -25,6 +21,5 @@ class PortfolioIllustratorCarousel extends React.Component {
 
            </div>
         )
-    }
 }
-export default PortfolioIllustratorCarousel
+export default CarouselConstructor 

@@ -1,12 +1,28 @@
 .portfolio_illustrator_carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
     padding-bottom: 5%;
     width: 100vw;
+    
    
+}
+
+.carousel_images img:nth-child(2) {
+    width: 30vw;
+    height: width;
 }
 
 .carousel_images img {
     padding: 1%;
+}
+
+.carousel_images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_illustrator_carousel img {
+    align-self: center;
+    justify-self: center;
 }
