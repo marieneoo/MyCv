@@ -4,7 +4,7 @@ class Resume extends React.Component {
     render() {
         return(
             <div>
-            <PortfolioIndex/>
+            
             </div>
         )
     }

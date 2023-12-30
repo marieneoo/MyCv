@@ -4,7 +4,7 @@ class GetInTouch extends React.Component {
     render() {
         return(
             <div>
-            <PortfolioIndex/>
+           
             </div>
         )
     }
