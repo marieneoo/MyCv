@@ -20,9 +20,9 @@ const Carousel = ({ first_child, second_child, third_child }) => {
 
          <div className="carousel_images">
 
-            <img src={img[0]} className="first_img" alt="stickers"></img>
-            <img src={img[1]} className="second_img" alt="geometric"></img>
-            <img src={img[2]} className="third_img" alt="march8"></img>
+            <img src={img[0]} className="img" alt="stickers"></img>
+            <img src={img[1]} className="img" alt="geometric"></img>
+            <img src={img[2]} className="img" alt="march8"></img>
 
          </div>
 
